@@ -38,6 +38,18 @@ define('blogcategory', ' ');
   font-size: 1.0em;
   font-style: italic;
 }
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.8em;
+}
 </style>
 
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -66,7 +78,7 @@ define('blogcategory', ' ');
         <?php include_once ("left-nav.php"); ?>
       </div>
 
-      <div class="col-md-6 section-content">
+      <div class="col-md-9 section-content">
 
         <span id="content-area" class="sr-only sr-only-focusable"></span>
 
@@ -79,8 +91,7 @@ define('blogcategory', ' ');
 
             <div class="col-sm-12 col-md-6">
               <p class="name"><span>Roanna Bennie</span><br />
-              Vice President<br />
-              <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1103">925.424.1103</a></p>
+              Vice President</p>
 
               <p class="name"><span>Carolyn Y. Scott</span><br />
               Executive Assistant<br />
@@ -131,7 +142,7 @@ define('blogcategory', ' ');
               <p class="name"><span>Ralitsa Ivanova-Olsson</span><br />
               Senior Administrative Assistant<br />
               <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1383">925.424.1383</a><br />
-              <span class="bldg">Bldg 4000, Room: 4111</span></p>
+              <span class="bldg">Bldg: 4000, Room: 4111</span></p>
             </div>
           </div>
 
@@ -147,21 +158,19 @@ define('blogcategory', ' ');
               <li><a href="/RELS/index.php">Religious Studies</a></li>
               <li><a href="/VCOM/index.php">Visual Communications</a></li>
             </ul>
-
-
           </div>
 
           <div class="col-sm-12 col-md-6">
             <h4>Language Arts &amp; Communications:</h4>
 
             <ul class="ul-lpc">
-              <li><a href="#">English</a></li>
-              <li><a href="#">English as a Second Language</a></li>
-              <li><a href="#">American Sign Language</a></li>
-              <li><a href="#">French</a></li>
-              <li><a href="#">Italian</a></li>
-              <li><a href="#">Spanish</a></li>
-              <li><a href="#">Mass Communications</a></li>
+              <li><a href="/ENG/index.php">English</a></li>
+              <li><a href="/ESL/index.php">English as a Second Language</a></li>
+              <li><a href="/ASL/index.php">American Sign Language</a></li>
+              <li><a href="/FREN/index.php">French</a></li>
+              <li><a href="/ITLN/index.php">Italian</a></li>
+              <li><a href="/SPAN/index.php">Spanish</a></li>
+              <li><a href="/MSCM/index.php">Mass Communications</a></li>
             </ul>
             <h4>Performing Arts:</h4>
             <ul class="ul-lpc">
@@ -178,11 +187,16 @@ define('blogcategory', ' ');
             <h3>Computing, Applied Technology &amp; Social Sciences (CATSS)</h3>
 
             <div class="col-sm-12 col-md-6">
-              <h4>Applied Technologies:</h4>
-              <ul class="ul-lpc">
-                <li><a href="/AUTO/index.php">Automotive Technology</a></li>
-                <li><a href="/WELD/index.php">Welding Technology</a></li>
-              </ul>
+              <p class="name"><span>Don Carlson, Ph.D</span><br />
+              Dean<br />
+              <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1324">925.424.1324</a></p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <p class="name"><span>Valerie Ball</span><br />
+              Senior Administrative Assistant<br />
+              <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1183">925.424.1183</a><br />
+              <span class="bldg">Bldg: 2400</span></p>
             </div>
 
             <div class="col-sm-12 col-md-6">
@@ -191,32 +205,154 @@ define('blogcategory', ' ');
                 <li><a href="/AUTO/index.php">Automotive Technology</a></li>
                 <li><a href="/WELD/index.php">Welding Technology</a></li>
               </ul>
+
+              <h4>Computing Studies:</h4>
+              <ul class="ul-lpc">
+                <li><a href="/CIS/index.php">Computer Information Systems</a></li>
+                <li><a href="/CIS_CAS/index.php">Computer Applications Software</a></li>
+                <li><a href="/CNT_ITCA/index.php">Computer Network Technology</a></li>
+                <li><a href="/CNT/index.php">Computer Network Technician</a></li>
+                <li><a href="/CNT_CNA/index.php">Cisco Network Associate</a></li>
+                <li><a href="/CNT_CNP/index.php">Cisco Network Professional</a></li>
+                <li><a href="/CS/index.php">Computer Science</a></li>
+                <li><a href="/CS_Prog/index.php">Computer Programming</a></li>
+                <li><a href="/CS_Web/index.php">Computer Programming for the Web</a></li>
+                <li>Electronics Technology</li>
+              </ul>
             </div>
-            <p class="name"><span>Don Carlson, Ph.D</span><br />
-            Dean<br />
-            <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1324">925.424.1324</a></p>
+
+            <div class="col-sm-12 col-md-6">
+              <h4>Behavioral Sciences:</h4>
+              <ul class="ul-lpc">
+                <li><a href="/ECD/index.php">Early Childhood Development</a></li>
+                <li><a href="/ECD/ECD_AssocTeacherCertificate.php">Early Childhood Development - Associate Teacher Certificate</a></li>
+                <li><a href="/ECD/ECD_BasicTeacherCertificate.php">Early Childhood Development - Basic Teacher Certificate</a></li>
+                <li><a href="/ECD/ECD_FamilyChildCareCertificate.php">Early Childhood Development - Family Childcare</a></li>
+                <li><a href="/PSYC/index.php">Psychology</a></li>
+              </ul>
+
+              <h4>Social Sciences:</h4>
+              <ul class="ul-lpc">
+                <li>History</li>
+                <li><a href="/politicalscience/">Political Science</a></li>
+                <li>Psychology</li>
+                <li>Sociology</li>
+                <li>Women's Studies</li>
+              </ul>
+
+              <h4>Library:</h4>
+              <ul class="ul-lpc">
+                <li>Library Studies</li>
+              </ul>
+            </div>
           </div>
+
           <div class="col-sm-12 col-md-12">
             <h3>Math, Science, Engineering &amp; Public Safety (MSEPS)</h3>
-            <p class="name"><span>Nan Ho</span><br />
-            Dean<br />
-            <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1182">925.424.1182</a></p>
+
+            <div class="col-sm-12 col-md-6">
+              <p class="name"><span>Nan Ho</span><br />
+              Dean<br />
+              <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1182">925.424.1182</a></p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <p class="name"><span>Linda Cross</span><br />
+                Senior Administrative Assistant<br />
+                <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1183">925.424.1183</a><br />
+                <span class="bldg">Bldg: 2100/1850/1800 Room: 2132</span></p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h4>Mathematics, Engineering and Science:</h4>
+              <ul class="ul-lpc">
+                <li><a href="#">Astronomy</a></li>
+                <li><a href="#">Biological Sciences</a></li>
+                <li><a href="#">Chemistry</a></li>
+                <li><a href="#">Geography</a></li>
+                <li><a href="#">Geology</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">Physics</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h4>Public Safety:</h4>
+
+              <ul class="ul-lpc">
+                <li><a href="#">Administration of Justice</a></li>
+                <li><a href="#">Fire Service Technology</a></li>
+                <li><a href="#">Emergency Medical Technician</a></li>
+                <li><a href="#">EMT-Paramedic</a></li>
+                <li><a href="#">Occupational Safety &amp; Health</a></li>
+                <li><a href="#">Radiation Safety</a></li>
+              </ul>
+            </div>
+
           </div>
           <div class="col-sm-12 col-md-12">
             <h3>Kinesiology/Athletics, Health, Business (BHAWK)</h3>
-            <p class="name"><span>Amir A. Law, EdD</span><br />
-            Dean<br />
-            <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1275">925.424.1275</a></p>
+
+            <div class="col-sm-12 col-md-6">
+              <p class="name"><span>Amir A. Law, EdD</span><br />
+              Dean<br />
+              <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1275">925.424.1275</a></p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <p class="name"><span>Mary Hargiss</span><br />
+              Senior Administrative Assistant<br />
+              <span class="fa fa-phone-square" aria-hidden="true"></span> <a href="tel:925-424-1274">925.424.1274</a><br />
+              <span class="bldg">Bldg: 2500 Room: PE 16</span></p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h4>Business, Entrepreneurialism, and Marketing:</h4>
+              <ul class="ul-lpc">
+                <li><a href="/BUSN_Acct/index.php">Accounting Technician</a></li>
+                <li><a href="/BUSN_AdAst/index.php">Administrative Assistant</a></li>
+                <li><a href="/BUSN/index.php">Business</a></li>
+                <li><a href="/BUSN_Admin/index.php">Business Administration</a></li>
+                <li><a href="/BUSN_Ent/index.php">Business Entrepreneurship</a></li>
+                <li><a href="/BUSN_Work/index.php">Business Workforce Proficiency</a></li>
+                <li><a href="/ECON/index.php">Economics</a></li>
+                <li><a href="/MKTG/index.php">Marketing</a></li>
+                <li><a href="/MKTG_Ret/index.php">Marketing - Retailing</a></li>
+                <li><a href="/BUSN_Ret/index.php">Retail Management</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h4>Kinesiology, Health, Athletics, and Nutrition:</h4>
+
+              <ul class="ul-lpc">
+                <li><a href="http://athletics.laspositascollege.edu/">Athletics</a></li>
+                <li><a href="/HLTH/index.php">Health</a></li>
+                <li><a href="/physicaled/index.php">Kinesiology</a></li>
+                <li><a href="/physicaled/index.php">Coaching</a></li>
+                <li><a href="/physicaled/index.php">Sports Medicine</a></li>
+                <li><a href="/NUTR/index.php">Nutrition</a></li>
+              </ul>
+
+              <h4>Horticulture / Viticulture:</h4>
+
+              <ul class="ul-lpc">
+                <li><a href="/HORT/index.php">Horticulture</a></li>
+                <li>Viticulture &amp; Winery Technology</li>
+              </ul>
+            </div>
+
           </div>
         </div>
 
       </div>
 
-      <div class="col-md-3 section-rightbar">
+      <!-- <div class="col-md-3 section-rightbar"> -->
 
-      <?php include_once ("right-sidebar.php"); ?>
+      <?php # include_once ("right-sidebar.php"); ?>
 
-      </div>
+      <!-- </div> -->
 
     </div>
 
