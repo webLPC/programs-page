@@ -174,7 +174,7 @@
 	}
 
 	.target-audience {
-		float: right;	
+		float: right;
 	}
 
 	.target-audience > li > a {
@@ -405,4 +405,9 @@ ul li span  {
 
 .list-group-item span {
 	display: inline-block;
+}
+
+.dept-banner {
+	padding: 0px;
+	margin-bottom: 0.35em;
 }
