@@ -278,14 +278,6 @@ tbody > tr > th {
               <td><span class="fa fa-check" aria-hidden="true" aria-label="AS-T Degree"></span></td>
               <td></td>
             </tr>
-            <tr>
-              <th scope="row">Automotive Drivability *</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
           </tbody>
         </table>
 
@@ -411,7 +403,8 @@ tbody > tr > th {
 
         <table class="table table-striped">
           <thead>
-            <caption>Communication Studies</caption>
+            <caption>Communication Studies<br />
+            <span>(Effective Fall 2017)</span></caption>
             <tr>
               <th scope="col">Program</th>
               <th scope="col">AA</th>
@@ -1147,78 +1140,6 @@ tbody > tr > th {
 
         <table class="table table-striped">
           <thead>
-            <caption>Liberal Arts &amp; Sciences<br /><span>(Not a Discipline)</span></caption>
-            <tr>
-              <th scope="col">Program</th>
-              <th scope="col">AA</th>
-              <th scope="col">AS</th>
-              <th scope="col">AA-T</th>
-              <th scope="col">AS-T</th>
-              <th scope="col">CERT</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="col">Liberal Arts &amp; Sciences Degree- Areas of Emphasis:</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Business *</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Computer Studies *</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Humanities</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Language Arts</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Mathematics and Science</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Social Science</td>
-              <td><span class="fa fa-check" aria-hidden="true" aria-label="AA Degree"></span></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table class="table table-striped">
-          <thead>
             <caption>Mass Communications</caption>
             <tr>
               <th scope="col">Program</th>
@@ -1644,7 +1565,7 @@ tbody > tr > th {
         <p><strong>KEY</strong> (students should consult with a counselor for further information)</p>
         <p><strong>*</strong> Career Technical Education (CTE) - occupational programs designed for job entry; some courses are transferable to 4-year institutions.</p>
         <p><strong>**</strong> Transfer Preparation Programs - designed for transfer; these programs do not complete a degree.</p>
-        <p><strong>x&#167;</strong> Carerr Certificate - are not transcripted; these courses provide industry based professional development</p>
+        <p><strong>x&#167;</strong> Career Certificate - are not transcripted; these courses provide industry based professional development</p>
 
 
 
