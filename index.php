@@ -183,9 +183,9 @@ h3 {
             </ul>
             <h4>Performing Arts:</h4>
             <ul class="ul-lpc">
+              <li><a href="/SPCH/index.php">Communication Studies</a></li>
               <li><a href="/DANC/index.php">Dance</a></li>
               <li><a href="/MUS/index.php">Music</a></li>
-              <li><a href="/SPCH/index.php">Speech</a></li>
               <li><a href="/THEA/index.php">Theater Arts</a></li>
             </ul>
           </div>
@@ -226,7 +226,6 @@ h3 {
                 <li><a href="/CS/index.php">Computer Science</a></li>
                 <li><a href="/CS_Prog/index.php">Computer Programming</a></li>
                 <li><a href="/CS_Web/index.php">Computer Programming for the Web</a></li>
-                <li>Electronics Technology</li>
               </ul>
             </div>
 
@@ -235,8 +234,8 @@ h3 {
               <ul class="ul-lpc">
                 <li><a href="/ECD/index.php">Early Childhood Development</a></li>
                 <li><a href="/ECD/ECD_AssocTeacherCertificate.php">Early Childhood Development - Associate Teacher Certificate</a></li>
-                <li><a href="/ECD/ECD_BasicTeacherCertificate.php">Early Childhood Development - Basic Teacher Certificate</a></li>
-                <li><a href="/ECD/ECD_FamilyChildCareCertificate.php">Early Childhood Development - Family Childcare</a></li>
+                <li><a href="/ECD/ECD_BasicTeacherCertificate.php">Early Childhood Development Certificate of Achievement</a></li>
+                <!-- <li><a href="/ECD/ECD_FamilyChildCareCertificate.php">Early Childhood Development - Family Childcare</a></li> -->
                 <li><a href="/PSYC/index.php">Psychology</a></li>
               </ul>
 
@@ -338,9 +337,6 @@ h3 {
               <ul class="ul-lpc">
                 <li><a href="http://athletics.laspositascollege.edu/">Athletics</a></li>
                 <li><a href="/HLTH/index.php">Health</a></li>
-                <li><a href="/physicaled/index.php">Kinesiology</a></li>
-                <li><a href="/physicaled/index.php">Coaching</a></li>
-                <li><a href="/physicaled/index.php">Sports Medicine</a></li>
                 <li><a href="/NUTR/index.php">Nutrition</a></li>
               </ul>
 
